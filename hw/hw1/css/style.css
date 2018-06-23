@@ -1,0 +1,124 @@
+body {
+	background-color: white;
+	color: gray;
+}
+
+header, main, nav, footer, #content {
+	text-align: center;
+}
+
+#content {
+	text-align: justify;
+	margin: 0 auto;
+	width: 50%;
+}
+#content h1{
+	font-size: 2em;
+}
+nav a {
+	padding: 15px;
+	padding-bottom: 4px;
+	font-size: 1.8em;
+	text-decoration: none;
+	color: gray;
+}
+
+nav a:hover {
+	border-bottom: 2px purple solid;
+	font-size: 2em;
+	transition: .9s;
+	color: black;
+}
+
+#me, #welcomeText {
+	float: left;
+}
+
+.IntroText {
+	text-align: justify;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.IntroText h1 {
+	font-size: 2em;
+}
+
+.IntroText a:link {
+    text-decoration: none;
+    color: purple;
+}
+
+footer {
+	clear: left;
+	font-size: 0.8em;
+	color: black;
+}
+
+.current {
+	border-bottom: 2px purple solid;
+}
+
+table {
+	margin: 0px auto;
+}
+
+td {
+	padding-right: 10px;
+	font-size: 1.3em;
+}
+
+td strong {
+	color: orange;
+}
+
+#table-header {
+	background-color: #351a00;
+}
+
+.table-row {
+	background-color: #753900;
+}
+
+ul {
+	text-align: left;
+}
+
+li::before {
+	content: "•"; 
+	color: purple;
+	display: inline-block;
+	width: 1em;
+  	margin-left: -1em
+}
+
+.hobby {
+	color: yellow;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 4em;
+	margin-bottom: 0px;
+}
+#demoPic {
+	margin: 0 auto;
+	width: 50%;
+}
+hr {
+	width: 80%;
+}
+p {
+	font-family: 'Verdana', serif;
+}
+a:link {
+    text-decoration: none;
+    color: gray;
+}
+#content a:hover {
+    color: orange;
+    
+}
+img {
+	box-shadow: 2px 5px #888888;
+}
