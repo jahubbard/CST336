@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+body {
+    background-color: #f0f0f5;
+    font-family: 'Russo One';
+}
+
+main {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+    padding: 5px 0;
+    color: #3d3d5c;
+    text-shadow: 1px 1px 0px #29293d;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+p{
+    padding: 5px 0;
+}
+
+ul, ol{
+    padding-left: 50px;
+}
+
+p, li {
+    line-height: 150%;
+    font-size: 1.5em;
+}
+
+section{
+    width: 100%;
+    float: left;
+}
+
+.wrapper{
+    width: 980px;
+    margin: 0 auto;
+}
+
+#header{
+    text-align: center;
+}
+
+h1{
+    font-size: 3.5em;
+    text-align: center;
+    padding: 5px 0;
+}
+
+h1 span{
+    font-size: .9em;
+    font-weight: 100;
+    text-shadow: none;
+    color: #673424;
+}
+
+.intro{
+    margin:0 auto;
+    width: 600px;
+    font-size: 1.2em;
+}
+
+.intro p{
+    font-size: 1.2em;
+}
+
+.current-day{
+    padding: 10px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.current-day span{
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    border-radius: 10%;
+    display: block;
+    padding: 20px;
+}
+
+.current-month{
+    background-color: #fff;
+}
+
+.day-of-week{
+    background-color:#f0f0f5;
+    color:#29293d;
+    font-weight: 100;
+    padding: 10px 30px;
+}
+
+footer {
+	clear: left;
+	font-size: 0.8em;
+	text-align: center;
+	color: black;
+}
+
+hr {
+	width: 55%;
+}
