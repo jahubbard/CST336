@@ -65,7 +65,7 @@ $conn = getDatabaseConnection("ottermart");
                 
                 echo "<a href=\"purchaseHistory.php?productId=".$record["productId"]. "\"> History </a>";
                 
-                echo $record["productName"] . " " . $record["productDescription"] . " $" . $record["price"] . "<br /><br />";
+                echo "<p>" . $record["productName"] . " " . $record["productDescription"] . " $" . $record["price"] . "</p><br /><br />";
             }
         }
     }
@@ -79,9 +79,10 @@ $conn = getDatabaseConnection("ottermart");
         <link rel="stylesheet" href="css/styles.css" type="text/css" />
     </head>
     <body>
-        <div>
+        <div class="container">
             <h1>Ottermart Product Search</h1>
             
+            <div class="form-container">
             <form>
                 
                 Product: <input type="text" name="product"/>
@@ -104,6 +105,7 @@ $conn = getDatabaseConnection("ottermart");
                 <br><br>
                 <input type="submit" value="Search" name="searchForm"/>
             </form>
+            </div>
             <br>
         </div>
         <hr>

@@ -1,0 +1,41 @@
+h1{
+  text-align: center;
+  color: black;
+}
+
+body{
+    background: rgb(52, 73, 94);
+}
+p {
+    color: white;
+}
+h3 {
+    color: white;
+}
+.form-container {
+    text-align: center;
+}
+.form-control {
+    width:100%;
+    border-radius: 5px;
+    color: black;
+}
+.btn{
+    width: 100%;
+    border-radius: 5px;
+    background: white;
+    color: black;
+}
+.container{
+    background: rgba(240, 240, 240, 0.98);
+    padding: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0px 12px rgba(0, 0, 0, .74);
+}
+#welcome {
+    font-size: 200%;
+    text-align: center;
+}
+#error {
+    text-align: center;
+}
