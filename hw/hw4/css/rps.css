@@ -1,0 +1,179 @@
+body
+{
+	background-color: #4E7393;
+}
+#introScreen
+{
+	position: absolute;
+	z-index: 100;
+	width: 600px;
+	height: 600px;
+	background-color: gray;
+}
+
+#introScreenContent
+{
+	width: 400px;
+	height: 200px;
+	padding: 20px;
+	background-color: white;
+	margin: 80 auto;
+	text-align: center;
+}
+
+.button
+{
+	padding: 10px;
+	border-radius: 10px;
+	width: 100px;
+	text-align: center;
+	cursor: hand;
+	cursor: pointer;
+	font-size: 14pt;
+	background-color: #888888;
+	color: white;
+	margin: 0 auto;
+}
+
+.button:hover
+{
+	background-color: #555555;
+}
+
+#gameWindow
+{
+	position: relative;
+	z-index: 0;
+	margin: 0 auto;
+	width: 600px;
+	border: 2px solid black;
+	height: 600px;
+	background-color: #DDDDDD;
+}
+
+#playerPanel
+{
+	position: absolute;
+	left: 40px;
+	top: 20px;
+	float: 600px;
+}
+
+#computerPanel
+{
+	position: absolute;
+	left: 360px;
+	top: 20px;
+}
+
+#imgComputer, #imgPlayer
+{
+	width: 200px;
+}
+
+h2
+{
+	text-align: center;
+	color: black;
+}
+
+.iconButton
+{
+	display: inline-block;
+	margin: 3px;
+	padding: 4px;
+	border-radius: 5px;
+	width: 60px;
+	height: 50px;
+	text-align: center;
+	cursor: hand;
+	cursor: pointer;
+	font-size: 10pt;
+}
+
+.iconButton img
+{
+	width: 22px;
+}
+
+.iconButton:hover
+{
+	color: white;
+}
+
+.iconLabel
+{
+	display: inline-block;
+	margin: 3px;
+	padding: 4px;
+	border-radius: 5px;
+	width: 60px;
+	height: 50px;
+	text-align: center;
+	cursor: hand;
+	cursor: pointer;
+	font-size: 10pt;
+	background-color: #EEEEEE;
+}
+
+.iconLabel img
+{
+	width: 22px;
+}
+
+#btnGo
+{
+	position: absolute;
+	left: 260px;
+	top: 270px;
+	padding: 10px;
+	border-radius: 20px;
+	width: 50px;
+	text-align: center;
+	cursor: hand;
+	cursor: pointer;
+	font-size: 14pt;
+	background-color: #0CA619;
+	color: white;
+	display: none;
+}
+
+#btnGo:hover
+{
+	background-color: #0CC819;
+}
+
+#endScreen
+{
+	position: absolute;
+	z-index: 101;
+	width: 600px;
+	height: 600px;
+	background-color: rgba(0,0,0,0.7);
+	display: none;
+}
+
+#endScreenContent
+{
+	width: 400px;
+	height: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#endScreenContent h1
+{
+	color: black;
+	font-size: 20px;
+}
+
+#endScreenContent h2
+{
+	color: black;
+	font-size: 24px;
+}
+
+footer
+{
+	text-align: center;
+}
