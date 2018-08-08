@@ -1,0 +1,20 @@
+h1 {
+    color:white;
+    text-align: center;
+    border-bottom: 2px orange solid;
+} 
+
+me {
+    color:white;
+    text-align: center;
+}
+
+body {
+    /*background-image:url("/finalProject/img/plane.jpg");*/
+    background-color:gold;
+    color:white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    border-bottom: 5px orange solid;
+}

@@ -1,0 +1,38 @@
+nav {  /*selects the nac container*/
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;  /*removes underline*/
+    color: white;           /*by defult, links are blue*/
+}
+
+nav:hover { 
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s;  
+}
+
+h3 {
+    text-align: center;
+}
+
+header, nav {
+    text-align: center;
+    color: white;
+}
+
+#feedback {
+    display: none;  /*Hides feedback when accessing quiz */
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    background-color:gold;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    border-bottom: 5px orange solid;
+}
